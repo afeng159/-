@@ -56,6 +56,8 @@
 		0042ADAF1C71D53100F0667D /* NSMutableDictionary+SaveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0042ADA71C71D53100F0667D /* NSMutableDictionary+SaveData.m */; };
 		0042ADB01C71D53100F0667D /* NSString+DateTimeCString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0042ADA91C71D53100F0667D /* NSString+DateTimeCString.m */; };
 		0042ADB11C71D53100F0667D /* UILabel+FlickerNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0042ADAB1C71D53100F0667D /* UILabel+FlickerNumber.m */; };
+		00C8F4CC1C75B8A0006A85F5 /* HCCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C8F4CA1C75B8A0006A85F5 /* HCCWindow.m */; };
+		00C8F4CD1C75B8A0006A85F5 /* alertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C8F4CB1C75B8A0006A85F5 /* alertView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,6 +167,9 @@
 		0042ADA91C71D53100F0667D /* NSString+DateTimeCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DateTimeCString.m"; sourceTree = "<group>"; };
 		0042ADAA1C71D53100F0667D /* UILabel+FlickerNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FlickerNumber.h"; sourceTree = "<group>"; };
 		0042ADAB1C71D53100F0667D /* UILabel+FlickerNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FlickerNumber.m"; sourceTree = "<group>"; };
+		00C8F4C91C75B8A0006A85F5 /* HCCWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCWindow.h; sourceTree = "<group>"; };
+		00C8F4CA1C75B8A0006A85F5 /* HCCWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCWindow.m; sourceTree = "<group>"; };
+		00C8F4CB1C75B8A0006A85F5 /* alertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = alertView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +284,9 @@
 		0042ACB91C716AE000F0667D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00C8F4C91C75B8A0006A85F5 /* HCCWindow.h */,
+				00C8F4CA1C75B8A0006A85F5 /* HCCWindow.m */,
+				00C8F4CB1C75B8A0006A85F5 /* alertView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -482,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0042AC921C71689500F0667D /* LaunchScreen.storyboard in Resources */,
+				00C8F4CD1C75B8A0006A85F5 /* alertView.xib in Resources */,
 				0042AC8F1C71689500F0667D /* Assets.xcassets in Resources */,
 				0042AC8D1C71689500F0667D /* Main.storyboard in Resources */,
 			);
@@ -512,6 +521,7 @@
 				0042ADAF1C71D53100F0667D /* NSMutableDictionary+SaveData.m in Sources */,
 				0042AD751C71787C00F0667D /* UIProgressView+AFNetworking.m in Sources */,
 				0042AD671C71787C00F0667D /* AFHTTPRequestOperation.m in Sources */,
+				00C8F4CC1C75B8A0006A85F5 /* HCCWindow.m in Sources */,
 				0042AC871C71689500F0667D /* AppDelegate.m in Sources */,
 				0042AD1E1C71743200F0667D /* MASCompositeConstraint.m in Sources */,
 				0042AD261C71743200F0667D /* View+MASAdditions.m in Sources */,
