@@ -58,6 +58,7 @@
 		0042ADB11C71D53100F0667D /* UILabel+FlickerNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0042ADAB1C71D53100F0667D /* UILabel+FlickerNumber.m */; };
 		00C8F4CC1C75B8A0006A85F5 /* HCCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C8F4CA1C75B8A0006A85F5 /* HCCWindow.m */; };
 		00C8F4CD1C75B8A0006A85F5 /* alertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C8F4CB1C75B8A0006A85F5 /* alertView.xib */; };
+		5603D6EE1CE172D400FB935E /* dsfdsfdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5603D6ED1CE172D400FB935E /* dsfdsfdsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -170,6 +171,8 @@
 		00C8F4C91C75B8A0006A85F5 /* HCCWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCWindow.h; sourceTree = "<group>"; };
 		00C8F4CA1C75B8A0006A85F5 /* HCCWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCWindow.m; sourceTree = "<group>"; };
 		00C8F4CB1C75B8A0006A85F5 /* alertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = alertView.xib; sourceTree = "<group>"; };
+		5603D6EC1CE172D400FB935E /* dsfdsfdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsfdsfdsViewController.h; sourceTree = "<group>"; };
+		5603D6ED1CE172D400FB935E /* dsfdsfdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dsfdsfdsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				0042AC851C71689500F0667D /* AppDelegate.h */,
+				5603D6EC1CE172D400FB935E /* dsfdsfdsViewController.h */,
+				5603D6ED1CE172D400FB935E /* dsfdsfdsViewController.m */,
 				0042AC861C71689500F0667D /* AppDelegate.m */,
 				0042AC8B1C71689500F0667D /* Main.storyboard */,
 				0042AC901C71689500F0667D /* LaunchScreen.storyboard */,
@@ -534,6 +539,7 @@
 				0042ADB01C71D53100F0667D /* NSString+DateTimeCString.m in Sources */,
 				0042AD241C71743200F0667D /* NSArray+MASAdditions.m in Sources */,
 				0042AD251C71743200F0667D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				5603D6EE1CE172D400FB935E /* dsfdsfdsViewController.m in Sources */,
 				0042AC841C71689500F0667D /* main.m in Sources */,
 				0042ADAC1C71D53100F0667D /* BBTextField.m in Sources */,
 				0042AD681C71787C00F0667D /* AFHTTPRequestOperationManager.m in Sources */,
